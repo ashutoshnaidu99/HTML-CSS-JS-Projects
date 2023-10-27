@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply-box{
+    max-width: 600px;
+    padding 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 3px 4px 5px gray;
+    border-radius: 10px;
+
+}
+.form-container{
+    margin-top: 25px;
+}
+label{
+    font-weight: 700;
+    display: grid;
+    
+}
+input{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
